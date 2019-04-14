@@ -5,11 +5,13 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
+    "react-code-snippet": "^0.6.12",
     "react-dom": "^16.8.3",
+    "react-highlight": "^0.12.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
-  "homepage": "https://khartaz.github.io/",
+  "homepage": "https://khartaz.github.io",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

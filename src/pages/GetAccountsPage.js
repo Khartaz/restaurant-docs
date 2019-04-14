@@ -15,7 +15,49 @@ const GetAccountsPage = () => {
                 <div className="details">
                     <pre>
                         <code>
-                            text code
+                            <div className="java">
+                                {`{
+  "_embedded": {
+      "accountUserResponseList": [
+          {
+              "id": 1,
+              "name": name",
+              "lastname": "lastname",
+              "email": "email@mail.com",
+              "username": "name.lastname.1",
+              "userUniqueId": "uPoteHHKmy",
+              "emailVerificationToken": "2jfgj9HJ",
+              "roles": [
+                  {
+                      "name": "Types of roles"
+                  }
+              ],
+              "active": true
+          }
+      ]
+  },
+  "_links": {
+      "first": {
+          "href": "http://host/api/accounts?page=0&size=1"
+      },
+      "self": {
+          "href": "http://host/api/accounts?page=0&size=1"
+      },
+      "next": {
+          "href": "http://host/api/accounts?page=1&size=1"
+      },
+      "last": {
+          "href": "http://host/api/accounts?page=29&size=1"
+      }
+  },
+  "page": {
+      "size": 1,
+      "totalElements": 30,
+      "totalPages": 30,
+      "number": 0
+  }
+}`}
+                            </div>
                         </code>
                     </pre>
                 </div> 
