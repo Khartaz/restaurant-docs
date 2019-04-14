@@ -1,14 +1,15 @@
 .content{
     float:left; 
-    width: 69.7%;
+    width: 74.7%;
 }
 
 .content .post{
     margin-top:4px; 
     position:relative; 
     padding:5px;
+    margin-bottom: 4px;
     background:#fff;
-    min-height: 165.1em;
+    min-height: 165.7em;
 }
 
 @media only screen and (max-width:955px) {
@@ -96,4 +97,12 @@ pre code {
 	font-size: 20px;
 	margin: 5px 5px;
 	padding: 5px 5px;
+}
+
+.status_200 {
+	text-transform: uppercase;
+	color: rgb(29, 180, 69);
+    text-shadow: 0.3px 0.3px black;
+    font-size: 13px; 
+    margin: 5px 5px; 
 }

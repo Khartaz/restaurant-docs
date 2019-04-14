@@ -1,6 +1,6 @@
 .sidebar{
     float:right; 
-    width: 30%;
+    width: 25%;
     text-align: left;
 }
 
@@ -16,18 +16,19 @@
     .sidebar, .sidebar .mob {
         width: 100%;
     }
-
-
 }
+
 .sidebar .mob h2{
     font-size:18px; height:24px; 
-    line-height:20px; 
+    line-height:20px;
+    margin: 0.5px 0.5px;
     border-bottom:3px solid #a7a7a7; 
     color:#7ba6c7;
 }
 
 .sidebar .mob ul{
     padding-bottom:5px;
+    margin-left: 10px;
 }
 
 .sidebar .mob li a{

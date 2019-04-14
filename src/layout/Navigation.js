@@ -12,7 +12,7 @@ const Navigation = () => {
                     <h2>Account User Controller</h2>
                     <ul>
                         <li><NavLink to="/user-details">Account User Entity Details</NavLink></li>
-                        <li><a href="#" class="disabled"><span className="post_method">Post</span> /api/accounts/signin</a> </li>
+                        <li><NavLink to="/post-sign-in"><span className="post_method">Post</span> /api/accounts/signin</NavLink> </li>
                         <li><a href="#" class="disabled"><span className="post_method">Post</span> /api/accounts/signup</a> </li>
                         <li><a href="#" class="disabled"><span class="get_method">Get</span> /api/accounts/userUniqueId</a> </li>
                         <li><NavLink to="/get-accounts"><span className="get_method">Get</span> /api/accounts </NavLink></li>
