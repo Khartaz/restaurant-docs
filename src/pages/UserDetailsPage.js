@@ -6,7 +6,7 @@ const UserDetailsPage = () => {
           <div class="content">
             <div class="post"> 
             <h2><a href="#">Account User Entity Details</a></h2>
-            {/* <!-- <p class="a"><span class="date">December 10 2008</span></p> --> */}
+
                 <div class="details">
                     <div class="text_wrapper">
                         <p>Long id - Primary key of entity. </p>
