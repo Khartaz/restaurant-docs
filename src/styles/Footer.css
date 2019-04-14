@@ -1,0 +1,19 @@
+.footer{
+    clear:both; 
+    width:100%;
+    margin:0 auto; 
+    text-align:center; 
+    height:30%;
+    background: white;
+}
+
+.footer .top{
+    padding:10px; 
+    color:#828282;
+}
+
+@media only screen and (max-width:955px) {
+    .footer , .footer .top {
+        width: 100%;
+    }
+}

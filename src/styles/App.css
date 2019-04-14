@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+}
+
+body{
+  font-family:Arial;
+  font-size:11px;
+  line-height:18px;
+  color:#a7a7a7;
+  padding:30px 0 0 0; 
+  background:#f3f3f3;
+}
+
+.wrapper{
+  max-width: 90vw;
+  margin:0 auto; 
+  background:#ebebeb; 
+  padding:4px;
+}
+
+img,a img{
+  border:0;
+}
+
+ul, li, dl, dt, dd{
+  list-style:none;
+}
+
+a{
+  text-decoration:none; 
+  color:#a7a7a7;
+}
+
+a:hover{ 
+  text-decoration: unset;
+}
+
+.clear{
+  clear:both; 
+  height:0; 
+  overflow:hidden; 
+  font-size:0; 
+  line-height:0; 
+  border:0;}
+
+.clearfix:after {
+  clear:both; 
+  height:0; 
+  overflow:hidden; 
+  display:block; 
+  visibility:hidden; 
+  content:"."; 
+}
+
+textarea,input,button,select{
+  font-size:12px; 
+  vertical-align:middle; 
+  color:#666;
+  padding:1px;
+  font-family:Arial;
+}
+

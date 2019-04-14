@@ -1,0 +1,97 @@
+.content{
+    float:left; 
+    width: 69.7%;
+}
+
+.content .post{
+    margin-top:4px; 
+    position:relative; 
+    padding:5px;
+    background:#fff; 
+}
+
+@media only screen and (max-width:955px) {
+    .content, .content .post {
+        width: 100%;
+    }
+}
+
+.content .post h2{ 
+    height:30px; 
+    line-height:30px; 
+    font-size:21px; 
+    border-bottom:3px solid #e0e0e0; 
+    padding-left: 5px;
+}
+
+.content .post p.a{
+    height:22px; 
+    padding-left: 5px; 
+    line-height:22px; 
+    background:#f3f3f3; 
+    color:#848484; 
+    font-size: 13px; 
+    font-family: sans-serif; 
+    color:#7ba6c7;
+}
+
+.content .post p.a a{
+    color:#848484;
+}
+
+.content .post p.a span{
+    padding:0 10px; 
+}
+
+.content .post .under_title{
+    font-size: 15px; 
+    margin: 5px 5px; 
+    color: black; 
+    display: inline-block;
+}
+
+.content .post .details{
+    padding:5px 5px;
+}
+
+pre code {
+	background: grey;
+    border: 1px solid black;
+    color: white;
+    page-break-inside: avoid;
+    font-size: 1.3em;
+    line-height: 1.6;
+	margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1em;
+    display: block;
+	word-wrap: break-word;
+  }
+
+  .info p {
+	  padding-left: 5px;
+	  padding-top: 5px;
+	  font-size: 15px;
+	  color: black;
+  }
+
+  .text_wrapper p {
+	padding-top: 5px;
+	font-size: 15px;
+	color: black;
+	margin: 5px;
+	font-family: serif;
+	font-size: 16px;
+	text-align: justify;
+	letter-spacing: 0.5px;
+	margin: 5px 10px;
+	line-height: 1.2;
+	word-spacing: 0.5px;
+}
+
+.text-line {
+	font-size: 20px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
