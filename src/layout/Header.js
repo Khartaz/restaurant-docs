@@ -6,7 +6,7 @@ const Header = () => {
     return ( 
         // <div className="wrapper">
             <div className="header"> 
-                 <h1 className="logo"><NavLink to="/restaurant-docs/">Restaurant</NavLink></h1>
+                 <h1 className="logo"><NavLink to="/">Restaurant</NavLink></h1>
                  <p><strong >API Documentation</strong></p>
             </div>
         // </div>
