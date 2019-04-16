@@ -6,7 +6,7 @@ const PostSignIn = () => {
           <div class="content">
             <div className="post">
                 <h2><p>Account User Controller</p></h2>
-                <p className="a"><span class="post_method">Get</span><code>/api/accounts/signin</code></p>
+                <p className="a"><span class="post_method">Post</span><code>/api/accounts/signin</code></p>
                 <div class="info">
                     <p>Sign in account. AccessToken JWT, token type Bearer</p>
                 </div>

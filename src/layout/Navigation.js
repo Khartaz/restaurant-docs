@@ -13,11 +13,11 @@ const Navigation = () => {
                     <ul>
                         <li><NavLink to="/user-details">Account User Entity Details</NavLink></li>
                         <li><NavLink to="/post-sign-in"><span className="post_method">Post</span> /api/accounts/signin</NavLink> </li>
-                        <li><a href="#" class="disabled"><span className="post_method">Post</span> /api/accounts/signup</a> </li>
-                        <li><a href="#" class="disabled"><span class="get_method">Get</span> /api/accounts/userUniqueId</a> </li>
+                        <li><NavLink to="/post-sign-up"><span className="post_method">Post</span> /api/accounts/signup</NavLink> </li>
+                        <li><NavLink to="/get-account-unique-id"><span class="get_method">Get</span> /api/accounts/{`{uniqueId}`}</NavLink> </li>
                         <li><NavLink to="/get-accounts"><span className="get_method">Get</span> /api/accounts </NavLink></li>
                         <li><a href="#" class="disabled"><span className="put_method">Put</span> /api/accounts</a> </li>
-                        <li><a href="#" class="disabled"><span class="delete_method">Delete</span> /api/accounts/id</a> </li>
+                        <li><a href="#" class="disabled"><span class="delete_method">Delete</span> /api/accounts/{`{id}`}</a> </li>
                     </ul>
                 </div>
                 <div className="mob">
